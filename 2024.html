@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="tong">
+		<div class="tren">
+			Loan Application Form
+		</div>
+		<div class="body">
+			<form method="post">
+					<fieldset>
+						<legend style="color: #2596be;">Applicant's Personal Information</legend>
+						<div class="form-group">
+							<label>Full Name:</label>
+							<input required type="text" name="full-name" id="full-name-id">
+						</div>
+						<div class="form-group">
+							<label>Date of Birth(MM/dd/yyyy):</label>
+							<input required type="Date" name="birth" id="birth-id">
+						</div><div class="form-group">
+							<label>Phone Number:</label>
+							<input required type="text" name="phone-number" id="number-id" minlength="10">
+						</div>
+						<div class="form-group">
+							<label>Address:</label>
+							<input required type="text" name="address" id="address-id">
+						</div>
+						<div class="form-group">
+							<label>ZIP code:</label>
+							<input required type="text" name="zip-code" id="code-id">
+						</div>
+					</fieldset><br>
+					<fieldset>
+						<legend style="color: #2596be;">Applicant's Employment Information</legend>
+						<div class="form-group">
+							<label>Current Employer:</label>
+							<input required type="text" name="employer" id="Employer-id">
+						</div>
+						<div class="form-group">
+							<label>Employer Address:</label>
+							<input required type="text" name="employer-address" id="employer-address-id">
+						</div>
+						<div class="form-group">
+							<label>Date of Joining(MM/dd/yyyy):</label>
+							<input required type="Date" name="joining" id="joining-id">
+						</div><div class="form-group">
+							<label>Phone Number:</label>
+							<input required type="text" name="phone-number" id="number-id" minlength="10">
+						</div>
+						<div class="form-group">
+							<label>E-mail ID:</label>
+							<input required type="Email" name="email" id="email-id">
+						</div>
+						<div class="form-group">
+							<label>Fax:</label>
+							<input required type="text" name="fax" id="fax-id">
+						</div>
+						<div class="form-group">
+							<label>Designation:</label>
+							<input required type="text" name="designation" id="designation-id">
+						</div>
+						<div class="form-group">
+							<label>Annual Income($):</label>
+							<input required type="Number" name="income" id="income-id">
+						</div>
+					</fieldset><br>
+					<fieldset>
+						<legend style="color: #2596be;">Loan Information</legend>
+						<div class="form-group" style="background: pink;padding: 10px;">
+						<label>Loan Type:</label>
+						<select>
+						<option>--Select--</option>	
+						<option>Personal Loan</option>
+						<option>Home Loan</option>
+						<option>Vehicle Loan</option>
+						<option>Business Loan</option>
+						<option>Education Loan</option>
+						</select>
+						</div>
+						<div class="form-group">
+							<label>Principal($):</label>
+							<input required type="Number" name="Principal" id="Principal-id">
+						</div>
+						<div class="form-group">
+							<label>Period(Months):</label>
+							<input required type="Number" name="Period" id="Period-id">
+						</div>
+						<div class="form-group">
+							<label>Interest(%):</label>
+							<input required type="text" name="Interest" id="Interest-id">
+						</div>
+						<div class="form-group">
+							<button type="submit">Submit</button>
+							<button type="reset">Reset</button>
+						</div>
+					</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
